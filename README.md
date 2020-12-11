@@ -2,7 +2,7 @@
 
 **Jadewallet** is a revolutionary self-custody solution that is built on foundation of the cutting-edge technologies including **MPC (multi-party computation)** and **TSS (threshold signature scheme)**. The feature of **MPC-based Threshold Signature** offers users the complete control over their digital assets and the ability to achieve multi-signature with keyless cryptographic security.
 
-<img src="./overview.png" style="zoom:33%;" />
+<img src="./overview.png" style="zoom:80%;" />
 
 The main disadvantage of multisig is that different blockchains requires different implementations, though plenty of blockchains don't even support multisig. Instead, **TSS** is obviously a better choice as it is entirely based on cryptography. Therefore, supporting **TSS** on each blockchain is always possible in spite of the blockchain's own implementation and features. Furthermore, signers' privacy will be well protected as their information won't be visible in transaction. It also reduces cost and avoids smart contract related risks since signature will be generated through **MPC** instead of executing a smart contract on chain. 
 
@@ -142,6 +142,7 @@ Tuolian provides the full package of custody services for well-known institution
 
 ### Milestone 4
 
+- Deposit/Withdraw
 - Support WalletConnect protocol.
 - DeFi access with security and better user experience
   - Parse raw data as readable transaction info.
